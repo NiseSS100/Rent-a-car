@@ -1,0 +1,184 @@
+{
+  "vehicle": [
+    {
+      "id": "404929c6-42fa-4fb6-b608-4acb45d2c796",
+      "type": "SUV",
+      "brand": "Mazda",
+      "model": "CX-5",
+      "construction_year": 2012,
+      "fuel_type": "Diesel",
+      "number_of_seats": "4/5",
+      "picture": "mazda-cx-5-2021.jpg",
+      "price_per_day": 43,
+      "isFree": false
+    },
+    {
+      "id": "1896f8e2-99d0-48ab-b561-cfc094c0e5b6",
+      "type": "cargo",
+      "brand": "Mercedes-Benz",
+      "model": "V-250",
+      "construction_year": 2016,
+      "fuel_type": "Electric",
+      "number_of_seats": "4/5",
+      "picture": "Mercedes-Benz_v-250.jpg",
+      "price_per_day": 32,
+      "isFree": true
+    },
+    {
+      "id": "0f87b1c7-01e1-4105-b289-a42815c36c09",
+      "type": "SUV",
+      "brand": "Audi",
+      "model": "Q5",
+      "construction_year": 2019,
+      "fuel_type": "Diesel",
+      "number_of_seats": "4/5",
+      "picture": "Audi-Q5.jpg",
+      "price_per_day": 39,
+      "isFree": false
+    },
+    {
+      "id": "adbc2e7e-967d-4f34-a921-eda58ff5e77c",
+      "type": "economy",
+      "brand": "Renault",
+      "model": "Zoe",
+      "construction_year": 2012,
+      "fuel_type": "Hybrid,",
+      "number_of_seats": "4/5",
+      "picture": "renault-zoe.jpg",
+      "price_per_day": 27,
+      "isFree": true
+    },
+    {
+      "id": "77703555-cb2a-429a-b097-19f3a936c519",
+      "type": "SUV",
+      "brand": "Toyota",
+      "model": "Raize",
+      "construction_year": 2019,
+      "fuel_type": "Diesel",
+      "number_of_seats": "4/5",
+      "picture": "TOYOT_RISE.jpg",
+      "price_per_day": 42,
+      "isFree": true
+    },
+    {
+      "id": "929232db-8b20-4cb7-81f0-6d382561933f",
+      "type": "luxury",
+      "brand": "Mercedes-Benz",
+      "model": "Maybach",
+      "construction_year": 2018,
+      "fuel_type": "Electric",
+      "number_of_seats": "4/5",
+      "picture": "mercedes-maybach.jpg",
+      "price_per_day": 62,
+      "isFree": true
+    },
+    {
+      "id": "5cb5c636-b4b8-4b65-9300-c458b522b7d7",
+      "type": "estate",
+      "brand": "Peugeot",
+      "model": "508 SW",
+      "construction_year": 2021,
+      "fuel_type": "Hybrid,",
+      "number_of_seats": "4/5",
+      "picture": "peugeot_508-SW.jpg",
+      "price_per_day": 27,
+      "isFree": false,
+      "status": true
+    },
+    {
+      "id": "c815856f-af69-4dcf-87a5-bc2857ae3668",
+      "type": "SUV",
+      "brand": "Honda",
+      "model": "CR-V",
+      "construction_year": 2020,
+      "fuel_type": "Petrol",
+      "number_of_seats": "4/5",
+      "picture": "honda_cr-v.jpg",
+      "price_per_day": 37,
+      "isFree": false
+    }
+  ],
+  "customer": [
+    {
+      "id": "62a24a4abf6921d6b547e093",
+      "name": "Bell Fields",
+      "email": "bellfields@gracker.com",
+      "phone": "+359 88 1234568"
+    },
+    {
+      "id": "62a24a4a37d93bcab306e901",
+      "name": "Lina Moon",
+      "email": "linamoon@gracker.com",
+      "phone": "+359 88 2345678"
+    },
+    {
+      "id": "62a24a4a77f1ed664a689003",
+      "name": "Rowe Cole",
+      "email": "rowecole@gracker.com",
+      "phone": "+359 88 3456789"
+    },
+    {
+      "id": "62a24a4aec60e623edb3a37e",
+      "name": "Cox Mcmahon",
+      "email": "coxmcmahon@gracker.com",
+      "phone": "+359 88 4567890"
+    },
+    {
+      "id": "62a24a4a9c5f3fb49975a3f3",
+      "name": "Latasha Kent",
+      "email": "latashakent@gracker.com",
+      "phone": "+359 87 5678901"
+    }
+  ],
+  "rental_event": [
+    {
+      "id": "62a259364dbe9f94b128ce96",
+      "start_date_time": "2020-04-28 13:18:52",
+      "end_date_time": "2020-05-09 09:31:01",
+      "Vehicle": "404929c6-42fa-4fb6-b608-4acb45d2c796",
+      "Customer": "62a24a4a9c5f3fb49975a3f3"
+    },
+    {
+      "id": "62a25936949c21699d828ae5",
+      "start_date_time": "2021-12-18 09:37:33",
+      "end_date_time": "2021-12-25 12:48:20",
+      "Vehicle": "929232db-8b20-4cb7-81f0-6d382561933f",
+      "Customer": "62a24a4aec60e623edb3a37e"
+    },
+    {
+      "id": "62a259366e15ab64c73b242e",
+      "start_date_time": "2018-01-21 11:51:36",
+      "end_date_time": "2018-01-24 09:29:51",
+      "Vehicle": "5cb5c636-b4b8-4b65-9300-c458b522b7d7",
+      "Customer": "62a24a4a9c5f3fb49975a3f3"
+    },
+    {
+      "id": "62a259363f7feb3f71def263",
+      "start_date_time": "2020-04-01 14:09:50",
+      "end_date_time": "2020-04-16 13:49:50",
+      "Vehicle": "929232db-8b20-4cb7-81f0-6d382561933f",
+      "Customer": "62a24a4abf6921d6b547e093"
+    },
+    {
+      "id": "62a25936f2651b6e995e2a85",
+      "start_date_time": "2021-11-09 05:46:22",
+      "end_date_time": "2021-11-16 05:27:32",
+      "Vehicle": "adbc2e7e-967d-4f34-a921-eda58ff5e77c",
+      "Customer": "62a24a4abf6921d6b547e093"
+    },
+    {
+      "id": "62a259365a4ead26b2da47a1",
+      "start_date_time": "2021-04-20 03:50:02",
+      "end_date_time": "2021-04-26 06:16:59",
+      "Vehicle": "5cb5c636-b4b8-4b65-9300-c458b522b7d7",
+      "Customer": "62a24a4abf6921d6b547e093"
+    },
+    {
+      "start_date_time": "2022-06-23",
+      "end_date_time": "2022-06-25",
+      "Vehicle": "",
+      "Customer": "",
+      "id": "pLlnvIZ"
+    }
+  ]
+}
